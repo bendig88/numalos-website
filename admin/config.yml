@@ -1,0 +1,667 @@
+backend:
+  name: github
+  repo: bendig88/numalos-website
+  branch: main
+site_url: https://numalos.netlify.app
+display_url: https://numalos.netlify.app
+media_folder: img
+public_folder: /img
+collections:
+- name: site
+  label: Website content
+  editor:
+    preview: false
+  files:
+  - name: content
+    label: All page text and photos
+    file: content/site.json
+    format: json
+    fields:
+    - label: Home page
+      name: home
+      widget: object
+      collapsed: true
+      fields:
+      - label: 'Photo: The PT. Numalos Abadi headquarters in Kawasan Industri Medan'
+        name: img01
+        widget: image
+      - label: Innovative, cost-effective industrial solutions
+        name: t001
+        widget: string
+      - label: We represent world-leading separation brands in...
+        name: t002
+        widget: text
+      - label: Explore our products
+        name: t003
+        widget: string
+      - label: Talk to our team
+        name: t004
+        widget: string
+      - label: '1990'
+        name: t005
+        widget: string
+      - label: Established in Medan, North Sumatra
+        name: t006
+        widget: string
+      - label: 500+
+        name: t007
+        widget: string
+      - label: Flottweg machines sold together in Indonesia
+        name: t008
+        widget: string
+      - label: '1994'
+        name: t009
+        widget: string
+      - label: In-house workshop opened at our headquarters
+        name: t010
+        widget: string
+      - label: '3'
+        name: t011
+        widget: string
+      - label: Principal brands from Germany, the USA and Aust...
+        name: t012
+        widget: string
+      - label: 'Photo: The Numalos Abadi team gathered in front of the company head'
+        name: img02
+        widget: image
+      - label: Headquarters and workshop
+        name: t013
+        widget: string
+      - label: Kawasan Industri Medan
+        name: t014
+        widget: string
+      - label: WHO WE ARE
+        name: t015
+        widget: string
+      - label: Specialised engineering with after-sales servic...
+        name: t016
+        widget: string
+      - label: PT. Numalos Abadi represents a number of promin...
+        name: t017
+        widget: text
+      - label: Read our story
+        name: t018
+        widget: string
+      - label: OUR PRODUCTS
+        name: t019
+        widget: string
+      - label: Proven machines from trusted principals
+        name: t020
+        widget: string
+      - label: All products
+        name: t021
+        widget: string
+      - label: 'Photo: A Flottweg decanter centrifuge with its cover open'
+        name: img03
+        widget: image
+      - label: GERMANY
+        name: t022
+        widget: string
+      - label: Flottweg decanters
+        name: t023
+        widget: string
+      - label: Reliable, German-built separation for palm oil ...
+        name: t024
+        widget: string
+      - label: 'Photo: Krebs Engineers logo'
+        name: img04
+        widget: image
+      - label: USA
+        name: t025
+        widget: string
+      - label: FLSmidth Krebs cyclones
+        name: t026
+        widget: string
+      - label: Robust, efficient desanding cyclones.
+        name: t027
+        widget: string
+      - label: 'Photo: Ripe oil palm fruit bunches on the tree'
+        name: img05
+        widget: image
+      - label: AUSTRALIA
+        name: t028
+        widget: string
+      - label: Pel-Tec Ripple Mill
+        name: t029
+        widget: string
+      - label: Pioneering Ripple Mill technology for palm oil ...
+        name: t030
+        widget: string
+      - label: HOW WE SUPPORT YOU
+        name: t031
+        widget: string
+      - label: From first quote to the next overhaul
+        name: t032
+        widget: string
+      - label: Sales
+        name: t033
+        widget: string
+      - label: The right machine for your application.
+        name: t034
+        widget: string
+      - label: Technical Service
+        name: t035
+        widget: string
+      - label: Commissioning and on-site repairs, fast.
+        name: t036
+        widget: string
+      - label: Workshop
+        name: t037
+        widget: string
+      - label: In-house reconditioning since 1994.
+        name: t038
+        widget: string
+      - label: Warehouse
+        name: t039
+        widget: string
+      - label: Spare parts in stock to cut downtime.
+        name: t040
+        widget: string
+      - label: 'Photo: Background photo'
+        name: img06
+        widget: image
+      - label: OUR WORKSHOP
+        name: t041
+        widget: string
+      - label: Reconditioning done in-house, to a high standard
+        name: t042
+        widget: string
+      - label: CNC lathes, computerised balancing machines and...
+        name: t043
+        widget: text
+      - label: See what we do
+        name: t044
+        widget: string
+      - label: AUTHORISED REPRESENTATIVE OF
+        name: t045
+        widget: string
+      - label: 'Photo: Flottweg Separation Technology'
+        name: img07
+        widget: image
+      - label: 'Photo: Krebs Engineers'
+        name: img08
+        widget: image
+      - label: PEL-TEC
+        name: t046
+        widget: string
+      - label: Planning a new installation or need service?
+        name: t047
+        widget: string
+      - label: Tell us about your mill and our sales and servi...
+        name: t048
+        widget: text
+      - label: Get in touch
+        name: t049
+        widget: string
+    - label: About page
+      name: about
+      widget: object
+      collapsed: true
+      fields:
+      - label: 'Photo: The full Numalos Abadi team outside the headquarters'
+        name: img01
+        widget: image
+      - label: Home
+        name: t001
+        widget: string
+      - label: About PT. Numalos Abadi
+        name: t002
+        widget: string
+      - label: A specialised engineering company serving Indon...
+        name: t003
+        widget: text
+      - label: OUR STORY
+        name: t004
+        widget: string
+      - label: Built around engineering and excellent after-sa...
+        name: t005
+        widget: string
+      - label: PT. Numalos Abadi is a specialised engineering ...
+        name: t006
+        widget: text
+      - label: Established in 1990, the company was formed to ...
+        name: t007
+        widget: text
+      - label: 'Photo: A technician at a large CNC lathe in the Numalos workshop'
+        name: img02
+        widget: image
+      - label: MILESTONES
+        name: t008
+        widget: string
+      - label: Decades of growth in North Sumatra
+        name: t009
+        widget: string
+      - label: '1981'
+        name: t010
+        widget: string
+      - label: Flottweg supplies its first machines to a custo...
+        name: t011
+        widget: text
+      - label: '1990'
+        name: t012
+        widget: string
+      - label: PT. Numalos Abadi is established in Medan.
+        name: t013
+        widget: string
+      - label: '1994'
+        name: t014
+        widget: string
+      - label: Our workshop opens at the KIM headquarters.
+        name: t015
+        widget: string
+      - label: '2006'
+        name: t016
+        widget: string
+      - label: Partnership with FLSmidth Krebs begins, bringin...
+        name: t017
+        widget: text
+      - label: Today
+        name: t018
+        widget: string
+      - label: More than 500 Flottweg machines sold in Indones...
+        name: t019
+        widget: text
+      - label: OUR PRINCIPALS
+        name: t020
+        widget: string
+      - label: The brands we represent
+        name: t021
+        widget: string
+      - label: 'Photo: Flottweg logo'
+        name: img03
+        widget: image
+      - label: Flottweg SE, Germany
+        name: t022
+        widget: string
+      - label: Decanter centrifuges for palm oil mills.
+        name: t023
+        widget: string
+      - label: Visit flottweg.com
+        name: t024
+        widget: string
+      - label: 'Photo: Krebs Engineers logo'
+        name: img04
+        widget: image
+      - label: FLSmidth Krebs, USA
+        name: t025
+        widget: string
+      - label: Robust and efficient desanding cyclones.
+        name: t026
+        widget: string
+      - label: Visit FLSmidth Krebs
+        name: t027
+        widget: string
+      - label: PEL-TEC
+        name: t028
+        widget: string
+      - label: Pel-Tec Ripple Mill, Australia
+        name: t029
+        widget: string
+      - label: A pioneer of Ripple Mill technology in Indonesi...
+        name: t030
+        widget: string
+      - label: See product details
+        name: t031
+        widget: string
+      - label: OUR TEAM
+        name: t032
+        widget: string
+      - label: Dedicated departments for every need
+        name: t033
+        widget: string
+      - label: To manage our customers' needs, the company run...
+        name: t034
+        widget: text
+      - label: Explore our divisions
+        name: t035
+        widget: string
+      - label: 'Photo: Service engineers working on a decanter scroll'
+        name: img05
+        widget: image
+      - label: 'Photo: Workshop machinery in the Numalos facility'
+        name: img06
+        widget: image
+      - label: 'Photo: Technicians reconditioning a machine component'
+        name: img07
+        widget: image
+    - label: Products page
+      name: products
+      widget: object
+      collapsed: true
+      fields:
+      - label: 'Photo: Close-up of ripe oil palm fruit'
+        name: img01
+        widget: image
+      - label: Home
+        name: t001
+        widget: string
+      - label: Our products
+        name: t002
+        widget: string
+      - label: Separation and processing equipment from world-...
+        name: t003
+        widget: text
+      - label: 'Photo: A Flottweg decanter centrifuge with its cover open'
+        name: img02
+        widget: image
+      - label: 'Photo: A Flottweg Z5E decanter centrifuge'
+        name: img03
+        widget: image
+      - label: 'Photo: Flottweg Separation Technology logo'
+        name: img04
+        widget: image
+      - label: Flottweg decanter centrifuges
+        name: t004
+        widget: string
+      - label: Flottweg delivered its first decanter in 1956 a...
+        name: t005
+        widget: text
+      - label: 'Patented Variable Impeller System: adjust the l...'
+        name: t006
+        widget: text
+      - label: In Indonesia since 1981, with the first machine...
+        name: t007
+        widget: string
+      - label: More than 500 units sold in Indonesia by Flottw...
+        name: t008
+        widget: text
+      - label: Request a quote
+        name: t009
+        widget: string
+      - label: Visit flottweg.com
+        name: t010
+        widget: string
+      - label: 'Photo: Krebs Engineers logo'
+        name: img05
+        widget: image
+      - label: FLSmidth Krebs desanding cyclones
+        name: t011
+        widget: string
+      - label: With more than 55 years in the industry, Krebs ...
+        name: t012
+        widget: text
+      - label: We have worked with FLSmidth Krebs since 2006, ...
+        name: t013
+        widget: text
+      - label: Request a quote
+        name: t014
+        widget: string
+      - label: Visit FLSmidth Krebs
+        name: t015
+        widget: string
+      - label: 55+
+        name: t016
+        widget: string
+      - label: years of Krebs cyclone and pump engineering
+        name: t017
+        widget: string
+      - label: '2006'
+        name: t018
+        widget: string
+      - label: Our partnership begins
+        name: t019
+        widget: string
+      - label: gMAX
+        name: t020
+        widget: string
+      - label: Desanding cyclones
+        name: t021
+        widget: string
+      - label: 'Photo: Oil palm fruit, before and after harvesting'
+        name: img06
+        widget: image
+      - label: PEL-TEC
+        name: t022
+        widget: string
+      - label: Pel-Tec Ripple Mill
+        name: t023
+        widget: string
+      - label: From Australia, Pel-Tec is a pioneer of Ripple ...
+        name: t024
+        widget: text
+      - label: Ask about ripple mills
+        name: t025
+        widget: string
+      - label: Not sure which machine fits your mill?
+        name: t026
+        widget: string
+      - label: Our sales engineers understand both the machine...
+        name: t027
+        widget: text
+      - label: Talk to sales
+        name: t028
+        widget: string
+    - label: Divisions page
+      name: divisions
+      widget: object
+      collapsed: true
+      fields:
+      - label: 'Photo: The Numalos workshop floor with an overhead crane and decant'
+        name: img01
+        widget: image
+      - label: Home
+        name: t001
+        widget: string
+      - label: Our divisions
+        name: t002
+        widget: string
+      - label: Four departments working together so your machi...
+        name: t003
+        widget: string
+      - label: 'Photo: Two Numalos engineers checking machine data on a laptop'
+        name: img02
+        widget: image
+      - label: '01'
+        name: t004
+        widget: string
+      - label: Sales Department
+        name: t005
+        widget: string
+      - label: The Sales department's main task is to promote ...
+        name: t006
+        widget: text
+      - label: '02'
+        name: t007
+        widget: string
+      - label: Technical Service Department
+        name: t008
+        widget: string
+      - label: Our technicians and electricians commission and...
+        name: t009
+        widget: text
+      - label: Customer service has always been our main focus...
+        name: t010
+        widget: text
+      - label: 'Photo: Service engineers working together on a decanter component'
+        name: img03
+        widget: image
+      - label: 'Photo: A technician operating a CNC lathe in the Numalos workshop'
+        name: img04
+        widget: image
+      - label: '03'
+        name: t011
+        widget: string
+      - label: Workshop Department
+        name: t012
+        widget: string
+      - label: Officially opened in 1994, our workshop was bui...
+        name: t013
+        widget: text
+      - label: We keep improving it by adding more modern and ...
+        name: t014
+        widget: text
+      - label: '04'
+        name: t015
+        widget: string
+      - label: Warehouse Department
+        name: t016
+        widget: string
+      - label: A delay in servicing because parts are unavaila...
+        name: t017
+        widget: text
+      - label: 'Photo: Machinery and equipment inside the Numalos facility'
+        name: img05
+        widget: image
+      - label: WORKSHOP CAPABILITIES
+        name: t018
+        widget: string
+      - label: Equipped for precision work
+        name: t019
+        widget: string
+      - label: Our workshop runs sophisticated machinery, incl...
+        name: t020
+        widget: text
+      - label: Welding
+        name: t021
+        widget: string
+      - label: Repair and fabrication of components
+        name: t022
+        widget: string
+      - label: Lathing
+        name: t023
+        widget: string
+      - label: CNC lathe machining
+        name: t024
+        widget: string
+      - label: Hard-facing spray
+        name: t025
+        widget: string
+      - label: Spray-on metal for wear protection
+        name: t026
+        widget: string
+      - label: Sand-blasting
+        name: t027
+        widget: string
+      - label: Surface preparation and cleaning
+        name: t028
+        widget: string
+      - label: Balancing
+        name: t029
+        widget: string
+      - label: Computerised balancing machines
+        name: t030
+        widget: string
+      - label: Need a service engineer or spare parts?
+        name: t031
+        widget: string
+      - label: Contact our team and we will respond as quickly...
+        name: t032
+        widget: string
+      - label: Request service
+        name: t033
+        widget: string
+    - label: Contact page
+      name: contact
+      widget: object
+      collapsed: true
+      fields:
+      - label: 'Photo: The PT. Numalos Abadi headquarters building in Medan'
+        name: img01
+        widget: image
+      - label: Home
+        name: t001
+        widget: string
+      - label: Contact us
+        name: t002
+        widget: string
+      - label: Questions about a machine, a quote or a service...
+        name: t003
+        widget: text
+      - label: Head office and workshop
+        name: t004
+        widget: string
+      - label: Jl. Pulau Irian No.17, Kawasan Industri Medan, ...
+        name: t005
+        widget: text
+      - label: Open in Google Maps
+        name: t006
+        widget: string
+      - label: Phone
+        name: t007
+        widget: string
+      - label: +62 61 6850580, 6850581, 6850582, 6850583
+        name: t008
+        widget: string
+      - label: Fax +62 61 6850584
+        name: t009
+        widget: string
+      - label: Email
+        name: t010
+        widget: string
+      - label: sales@numalos.com
+        name: t011
+        widget: string
+      - label: Send us a message
+        name: t012
+        widget: string
+      - label: Send message
+        name: t013
+        widget: string
+      - label: Thank you
+        name: t014
+        widget: string
+      - label: Your message has been sent. Our team will get b...
+        name: t015
+        widget: string
+      - label: Send another message
+        name: t016
+        widget: string
+    - label: Footer
+      name: footer
+      widget: object
+      collapsed: true
+      fields:
+      - label: numalos
+        name: t001
+        widget: string
+      - label: PT. Numalos Abadi. Specialised engineering, sal...
+        name: t002
+        widget: text
+      - label: Company
+        name: t003
+        widget: string
+      - label: Home
+        name: t004
+        widget: string
+      - label: About us
+        name: t005
+        widget: string
+      - label: Products
+        name: t006
+        widget: string
+      - label: Divisions
+        name: t007
+        widget: string
+      - label: Contact
+        name: t008
+        widget: string
+      - label: Our principals
+        name: t009
+        widget: string
+      - label: Flottweg SE
+        name: t010
+        widget: string
+      - label: FLSmidth Krebs
+        name: t011
+        widget: string
+      - label: Pel-Tec Ripple Mill
+        name: t012
+        widget: string
+      - label: Contact
+        name: t013
+        widget: string
+      - label: Jl. Pulau Irian No.17, Kawasan Industri Medan
+        name: t014
+        widget: string
+      - label: +62 61 6850580
+        name: t015
+        widget: string
+      - label: sales@numalos.com
+        name: t016
+        widget: string
+      - label: © 2026 PT. Numalos Abadi. All rights reserved.
+        name: t017
+        widget: string
+      - label: Staff login
+        name: t018
+        widget: string
