@@ -55,12 +55,6 @@ collections:
       - label: In-house workshop opened at our headquarters
         name: t010
         widget: string
-      - label: '3'
-        name: t011
-        widget: string
-      - label: Principal brands from Germany, the USA and Aust...
-        name: t012
-        widget: string
       - label: 'Photo: The Numalos Abadi team gathered in front of the company head'
         name: img02
         widget: image
@@ -157,33 +151,6 @@ collections:
       - label: Spare parts in stock to cut downtime.
         name: t040
         widget: string
-      - label: 'Photo: Background photo'
-        name: img06
-        widget: image
-      - label: OUR WORKSHOP
-        name: t041
-        widget: string
-      - label: Reconditioning done in-house, to a high standard
-        name: t042
-        widget: string
-      - label: CNC lathes, computerised balancing machines and...
-        name: t043
-        widget: text
-      - label: See what we do
-        name: t044
-        widget: string
-      - label: AUTHORISED REPRESENTATIVE OF
-        name: t045
-        widget: string
-      - label: 'Photo: Flottweg Separation Technology'
-        name: img07
-        widget: image
-      - label: 'Photo: Krebs Engineers'
-        name: img08
-        widget: image
-      - label: PEL-TEC
-        name: t046
-        widget: string
       - label: Planning a new installation or need service?
         name: t047
         widget: string
@@ -193,6 +160,18 @@ collections:
       - label: Get in touch
         name: t049
         widget: string
+      - label: 'Photo: Flottweg Belt Press'
+        name: img09
+        widget: image
+      - label: 'Belt Press: country'
+        name: t050
+        widget: string
+      - label: 'Belt Press: title'
+        name: t051
+        widget: string
+      - label: 'Belt Press: description'
+        name: t052
+        widget: text
     - label: About page
       name: about
       widget: object
@@ -279,30 +258,6 @@ collections:
       - label: Visit flottweg.com
         name: t024
         widget: string
-      - label: 'Photo: Krebs Engineers logo'
-        name: img04
-        widget: image
-      - label: FLSmidth Krebs, USA
-        name: t025
-        widget: string
-      - label: Robust and efficient desanding cyclones.
-        name: t026
-        widget: string
-      - label: Visit FLSmidth Krebs
-        name: t027
-        widget: string
-      - label: PEL-TEC
-        name: t028
-        widget: string
-      - label: Pel-Tec Ripple Mill, Australia
-        name: t029
-        widget: string
-      - label: A pioneer of Ripple Mill technology in Indonesi...
-        name: t030
-        widget: string
-      - label: See product details
-        name: t031
-        widget: string
       - label: OUR TEAM
         name: t032
         widget: string
@@ -388,24 +343,6 @@ collections:
         widget: string
       - label: Visit FLSmidth Krebs
         name: t015
-        widget: string
-      - label: 55+
-        name: t016
-        widget: string
-      - label: years of Krebs cyclone and pump engineering
-        name: t017
-        widget: string
-      - label: '2006'
-        name: t018
-        widget: string
-      - label: Our partnership begins
-        name: t019
-        widget: string
-      - label: gMAX
-        name: t020
-        widget: string
-      - label: Desanding cyclones
-        name: t021
         widget: string
       - label: 'Photo: Oil palm fruit, before and after harvesting'
         name: img06
@@ -640,12 +577,6 @@ collections:
         widget: string
       - label: Flottweg SE
         name: t010
-        widget: string
-      - label: FLSmidth Krebs
-        name: t011
-        widget: string
-      - label: Pel-Tec Ripple Mill
-        name: t012
         widget: string
       - label: Contact
         name: t013
