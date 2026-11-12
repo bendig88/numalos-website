@@ -347,9 +347,6 @@ collections:
       - label: 'Photo: Oil palm fruit, before and after harvesting'
         name: img06
         widget: image
-      - label: PEL-TEC
-        name: t022
-        widget: string
       - label: Pel-Tec Ripple Mill
         name: t023
         widget: string
@@ -370,6 +367,30 @@ collections:
         widget: string
       - label: 'Photo: Flottweg separator'
         name: img07
+        widget: image
+      - label: 'Belt Press: title'
+        name: t040
+        widget: string
+      - label: 'Belt Press: paragraph'
+        name: t041
+        widget: text
+      - label: 'Belt Press: bullet points'
+        name: t042
+        widget: text
+      - label: 'Belt Press: quote button'
+        name: t043
+        widget: string
+      - label: 'Belt Press: Flottweg link'
+        name: t044
+        widget: string
+      - label: 'Belt Press: Flottweg logo'
+        name: img08
+        widget: image
+      - label: 'Photo: Flottweg Belt Press'
+        name: img09
+        widget: image
+      - label: 'Nozzle Separators: Flottweg logo'
+        name: img10
         widget: image
     - label: Divisions page
       name: divisions
