@@ -168,12 +168,12 @@
   "contact": {
     "t004": "Head office and workshop",
     "t015": "Your message has been sent. Our team will get back to you soon.",
-    "t005": "Jl. Pulau Irian No.17, Kawasan Industri Medan, North Sumatra, Indonesia",
+    "t005": "Jl. Pulau Irian No.17, Kawasan Industri Medan, \nSaentis - Percut Sei Tuan\nDeli Serdang - North Sumatra - 20371, \nIndonesia",
     "t016": "Send another message",
     "t006": "Open in Google Maps",
     "t007": "Phone",
     "img01": "/img/pic15.jpg",
-    "t008": "+62 61 6850580, 6850581, 6850582, 6850583",
+    "t008": "+62 61 6850580, 6850582",
     "t009": "Fax +62 61 6850584",
     "t010": "Email",
     "t011": "sales@numalos.com",
@@ -186,7 +186,7 @@
   },
   "footer": {
     "t004": "Home",
-    "t015": "+62 61 6850580",
+    "t015": "+62 61 6850580, 6850582",
     "t005": "About us",
     "t016": "sales@numalos.com",
     "t006": "Products",
@@ -196,10 +196,10 @@
     "t008": "Contact",
     "t009": "Our principals",
     "t010": "Flottweg SE",
-    "t001": "numalos",
-    "t002": "PT. Numalos Abadi. Specialised engineering, sales and after-sales service for the palm oil industry in Indonesia since 1990.",
+    "t001": "PT. Numalos Abadi",
+    "t002": "Specialised engineering, sales and after-sales service for the palm oil industry in Indonesia since 1990.",
     "t013": "Contact",
     "t003": "Company",
-    "t014": "Jl. Pulau Irian No.17, Kawasan Industri Medan"
+    "t014": "Jl. Pulau Irian No.17, Kawasan Industri Medan,  Saentis - Percut Sei Tuan Deli Serdang - North Sumatra - 20371,  Indonesia"
   }
 }
